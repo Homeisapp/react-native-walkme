@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.demowalktree"
+        applicationId "com.homeis.walkme"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -141,6 +141,12 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation ('abbi.io:abbisdk:+') {
+        exclude module: 'support-v4'
+        exclude module: 'appcompat-v7'
+        exclude module: 'design'
+        exclude module: 'recyclerview-v7'
+    }
 }
 
 // Run this once to be able to run the application with BUCK

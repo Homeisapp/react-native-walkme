@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri May 17 18:27:01 IST 2019
+0.baseType=DIRECTORY
+0.base=/Users/padam/Desktop/RNWalkMe/android/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.path=WMBridge.js
+0.set=ASSET
+count=1
