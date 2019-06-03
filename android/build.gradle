@@ -1,11 +1,12 @@
 
 buildscript {
-        repositories {
+    repositories {
+            google()
             jcenter()
-
         }
-        dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta2'
+
     }
 }
 
@@ -17,7 +18,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
@@ -28,9 +29,18 @@ android {
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+    maven {
+        url 'https://abbiio.bintray.com/maven/'
+        name 'abbi'
+    }
+
 }
 
 dependencies {
-
-    compile 'com.facebook.react:react-native:+'
+    implementation 'abbi.io:abbisdk:1.17.0'
+    implementation 'com.facebook.react:react-native:+'
 }
