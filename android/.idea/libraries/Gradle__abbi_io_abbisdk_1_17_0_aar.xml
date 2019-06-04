@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: abbi.io:abbisdk:1.17.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/abbisdk-1.17.0.aar/25123a3e8111c213326ccb42b6e54b49/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/abbisdk-1.17.0.aar/25123a3e8111c213326ccb42b6e54b49/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/abbisdk-1.17.0.aar/25123a3e8111c213326ccb42b6e54b49/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/abbi.io/abbisdk/1.17.0/ff3808195c16cbd66bb8459544eca25cf8f82189/abbisdk-1.17.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
