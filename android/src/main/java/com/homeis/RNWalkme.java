@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.homeis;
 
 
 import android.content.Context;
@@ -28,16 +28,16 @@ import javax.annotation.Nonnull;
  * This class echoes a string called from JavaScript.
  */
 
-public class RNWalkmeRnModule extends ReactContextBaseJavaModule {
+public class RNWalkme extends ReactContextBaseJavaModule {
   private Context context;
 
   @Nonnull
   @Override
   public String getName() {
-    return "RNWalkmeRnModule";
+    return "RNWalkme";
   }
 
-  public RNWalkmeRnModule(ReactApplicationContext reactContext) {
+  public RNWalkme(ReactApplicationContext reactContext) {
     super(reactContext);
     this.context = reactContext;
   }

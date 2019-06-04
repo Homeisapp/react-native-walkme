@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.homeis;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -13,7 +13,7 @@ import java.util.List;
 
 
 
-public class RNWalkmeRnPackage implements ReactPackage  {
+public class RNWalkmePackage implements ReactPackage  {
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
@@ -24,7 +24,7 @@ public class RNWalkmeRnPackage implements ReactPackage  {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new RNWalkmeRnModule(reactContext));
+        modules.add(new RNWalkme(reactContext));
 
         return modules;
     }
