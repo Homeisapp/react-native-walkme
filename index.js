@@ -7,8 +7,6 @@ const RNWalkMeSDK = {
         RNWalkme.start(key, secret, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('start successfully');
             }
         });
     },
@@ -16,8 +14,6 @@ const RNWalkMeSDK = {
         RNWalkme.restart((error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('restart successfully')
             }
         });
     },
@@ -25,8 +21,6 @@ const RNWalkMeSDK = {
         RNWalkme.sendGoal(goalName, properties, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('goal send successfully');
             }
         });
     },
@@ -34,8 +28,6 @@ const RNWalkMeSDK = {
         RNWalkme.setUserAttribute(key, value, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('user attribute set successfully');
             }
         });
     },
@@ -43,8 +35,6 @@ const RNWalkMeSDK = {
         RNWalkme.setUserAttributes(attributes, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('user attributes set successfully');
             }
         });
     },
@@ -52,8 +42,6 @@ const RNWalkMeSDK = {
         RNWalkme.setPrivateUserAttribute(key, value, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('private user attribute set successfully');
             }
         });
     },
@@ -61,8 +49,6 @@ const RNWalkMeSDK = {
         RNWalkme.setPrivateUserAttributes(attributes, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('private user attributes set successfully');
             }
         });
     },
@@ -70,8 +56,6 @@ const RNWalkMeSDK = {
         RNWalkme.clearPrivateUserAttributes((error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('clear private user attributes set successfully');
             }
         });
     },
@@ -79,8 +63,6 @@ const RNWalkMeSDK = {
         RNWalkme.setFlag(num, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('flag set successfully');
             }
         });
     },
@@ -88,8 +70,6 @@ const RNWalkMeSDK = {
         RNWalkme.trigger(trigger, deepLink, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('triggered successfully');
             }
         });
     },
@@ -97,8 +77,6 @@ const RNWalkMeSDK = {
         RNWalkme.setUserID(userID, (error) => {
             if (error) {
                 console.warn(error);
-            } else {
-                console.warn('user id set successfully');
             }
         });
     }

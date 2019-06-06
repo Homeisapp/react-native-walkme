@@ -1,17 +1,24 @@
 {
   "name": "react-native-walkme",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Wrapper around the WalkMe SDK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "walkme",
+    "abbi"
   ],
   "author": "Ady Levy <ady@homeis.com>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.58.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Homeisapp/react-native-walkme.git"
+  },
+  "homepage": "https://github.com/Homeisapp/react-native-walkme#readme"
 }
