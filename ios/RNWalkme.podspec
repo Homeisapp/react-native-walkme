@@ -1,22 +1,21 @@
 
 Pod::Spec.new do |s|
-  s.name         = "RNWalkmeRn"
+  s.name         = "RNWalkMe"
   s.version      = "1.0.0"
-  s.summary      = "RNWalkmeRn"
+  s.summary      = "RNWalkMe"
   s.description  = <<-DESC
-                  RNWalkmeRn
+                  React native wrapper around the ABBI / Walkme SDK.
                    DESC
-  s.homepage     = ""
+  s.homepage     = "http://www.homeis.com"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author             = { "author" => "ady@homeis.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNWalkmeRn.git", :tag => "master" }
-  s.source_files  = "RNWalkmeRn/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/homeisapp/react-native-walkme.git", :tag => "development" }
+  s.source_files  = "RNWalkme/**/*.{h,m}"
   s.requires_arc = true
   s.dependency 'React'
   s.dependency 'abbi'
 
 end
 
-  
