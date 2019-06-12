@@ -54,7 +54,9 @@ public class RNWalkme extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void start(String key, String secret,Callback callback){
-    if (key != null && secret != null) {
+    if (this.getCurrentActivity() == null) {
+         callback.invoke("Activity is null");
+    } else if (key != null && secret != null) {
       ABBI.setFlag(ABBIFlags.ABBI_APP_HYBRID.getValue());
       ABBI.start(key, secret, this.getCurrentActivity());
       callback.invoke((Object)null);
