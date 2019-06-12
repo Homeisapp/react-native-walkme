@@ -54,12 +54,11 @@ public class RNWalkme extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void start(String key, String secret,Callback callback){
-    final Activity activity = getCurrentActivity();
-    if (activity == null) {
+    if (this.getCurrentActivity() == null) {
          callback.invoke("Activity is null");
     } else if (key != null && secret != null) {
       ABBI.setFlag(ABBIFlags.ABBI_APP_HYBRID.getValue());
-      ABBI.start(key, secret, activity);
+      ABBI.start(key, secret, this.getCurrentActivity());
       callback.invoke((Object)null);
     } else {
       callback.invoke("key or secret should not be undefined");
