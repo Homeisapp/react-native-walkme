@@ -1,5 +1,5 @@
 
-package com.homeis;
+package com.reactlibrary;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
