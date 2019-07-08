@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.homeis;
 
 
 import android.content.Context;
