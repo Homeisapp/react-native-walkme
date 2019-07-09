@@ -1,6 +1,6 @@
 {
   "name": "react-native-walkme",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Wrapper around the WalkMe SDK",
   "main": "index.js",
   "scripts": {

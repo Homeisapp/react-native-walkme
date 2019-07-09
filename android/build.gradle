@@ -41,6 +41,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'abbi.io:abbisdk:1.17.0'
+    implementation 'abbi.io:abbisdk:1.17.+'
     implementation 'com.facebook.react:react-native:+'
 }
