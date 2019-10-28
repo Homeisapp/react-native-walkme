@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNWalkMe"
-  s.version      = "1.0.0"
+  s.version      = "1.1.1"
   s.summary      = "RNWalkMe"
   s.description  = <<-DESC
                   React native wrapper around the ABBI / Walkme SDK.
