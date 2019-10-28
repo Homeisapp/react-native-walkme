@@ -10,6 +10,7 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.ReadableMap;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -136,10 +137,9 @@ public class RNWalkme extends ReactContextBaseJavaModule {
    * ABBI.setUserAttributes({"isProUser":true,"isLoggedIn":0});
    */
   @ReactMethod
-  public void setUserAttributes(JSONObject object,Callback callback){
+  public void setUserAttributes(ReadableMap object,Callback callback){
     if (object != null) {
-      Map<String, Object> attributes = toMap(object);
-      ABBI.setUserAttributes(attributes);
+      ABBI.setUserAttributes(object.toHashMap());
       callback.invoke((Object)null);
     } else {
       callback.invoke("attributes should not be undefined");
@@ -179,10 +179,9 @@ public class RNWalkme extends ReactContextBaseJavaModule {
    */
 
   @ReactMethod
-  public void setPrivateUserAttributes(JSONObject object,Callback callback){
+  public void setPrivateUserAttributes(ReadableMap object,Callback callback){
     if (object != null) {
-      Map<String, Object> attributes = toMap(object);
-      ABBI.setPrivateUserAttributes(attributes);
+      ABBI.setPrivateUserAttributes(object.toHashMap());
       callback.invoke((Object)null);
     } else {
       callback.invoke("attributes should not be undefined");
