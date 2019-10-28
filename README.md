@@ -17,7 +17,7 @@
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-walkme-rn` and add `RNWalkme.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNWalkme.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Add this line to your pod file: `pod 'RNWalkMe', :path => '../node_modules/react-native-walkme/ios'`
+4. Add this line to your pod file: `pod 'react-native-walkme', :path => '../node_modules/react-native-walkme'`
 5. Run your project (`Cmd+R`)<
 
 #### Android
