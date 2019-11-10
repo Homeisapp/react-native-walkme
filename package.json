@@ -14,7 +14,7 @@
   "author": "Ady Levy <ady@homeis.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.58.6"
+    "react-native": "^0.60.6"
   },
   "repository": {
     "type": "git",
